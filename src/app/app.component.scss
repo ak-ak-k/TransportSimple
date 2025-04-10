@@ -1,0 +1,74 @@
+/* trip-visualizer.component.css */
+.container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.input-container button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #0056b3;
+}
+
+.visualization-container {
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 200px;
+}
+
+.level {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.level-2 {
+  margin-left: 40px;
+}
+
+.trip {
+  display: flex;
+  align-items: center;
+}
+
+.trip-code {
+  background-color: #f0f0f0;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-family: monospace;
+  white-space: nowrap;
+}
+
+.connector {
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.connector-line,
+.connector-arrow {
+  display: block;
+}
